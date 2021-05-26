@@ -30,18 +30,8 @@ Add image here
 
 *   ### Wireframes
 
-    -   [Index Full Screen](/assets/images/hott_index.png)
-    -   [Index Tablet](/assets/images/hott_index_tablet.png)
-    -   [Index Handheld](/assets/images/hott_index_handheld.png)
-    -   [About Full Screen](/assets/images/about.png)
-    -   [About Tablet](/assets/images/about_tablet.png)
-    -   [About Handheld](/assets/images/about_handheld.png)
-    -   [Gallery Full Screen](/assets/images/gallery.png)
-    -   [Gallery Tablet](/assets/images/gallery_tablet.png)
-    -   [Gallery Handheld](/assets/images/gallery_handheld.png)
-    -   [Community Full Screen](/assets/images/community.png)
-    -   [Community Tablet](/assets/images/community_tablet.png)
-    -   [Community Handheld](/assets/images/community_handheld.png)
+    -   [Wireframe collection](/doc/README.md)
+ 
 
 ## Features
 
