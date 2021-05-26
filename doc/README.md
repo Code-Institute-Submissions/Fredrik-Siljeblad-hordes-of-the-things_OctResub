@@ -2,8 +2,8 @@ Add image here
 
 ## Wireframes
 
-    -   [Index Full Screen](../doc/hott_index.png)
-    -   [Index Tablet](../doc/hott_index_tablet.png)
+    -   [Index Full Screen](hott_index.png)
+    -   [Index Tablet](/hott_index_tablet.png)
     -   [Index Handheld](../doc/hott_index_handheld.png)
     -   [About Full Screen](../doc/about.png)
     -   [About Tablet](../doc/about_tablet.png)
