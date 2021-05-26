@@ -30,7 +30,19 @@ Add image here
 
 *   ### Wireframes
 
-    -   [Wireframes](/assets/wireframes.pdf)
+    -   [Index Full Screen](assets/image/hott_index.png)
+    -   [Index Tablet](assets/image/hott_index_tablet.png)
+    -   [Index Handheld](assets/image/hott_index_handheld.png)
+    -   [About Full Screen](assets/image/about.png)
+    -   [About Tablet](assets/image/about_tablet.png)
+    -   [About Handheld](assets/image/about_handheld.png)
+    -   [Gallery Full Screen](assets/image/gallery.png)
+    -   [Gallery Tablet](assets/image/gallery_tablet.png)
+    -   [Gallery Handheld](assets/image/gallery_handheld.png)
+    -   [Community Full Screen](assets/image/community.png)
+    -   [Community Tablet](assets/image/community_tablet.png)
+    -   [Community Handheld](assets/image/community_handheld.png)
+
 ## Features
 
 -   Responsive on all device sizes
