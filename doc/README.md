@@ -2,7 +2,7 @@ Add image here
 
 ## Wireframes
 
-    -   [Index Full Screen](hott_index.png)
+    -   [Index Full Screen](/wireframes/hott_index.png)
     -   [Index Tablet](/hott_index_tablet.png)
     -   [Index Handheld](../doc/hott_index_handheld.png)
     -   [About Full Screen](../doc/about.png)
