@@ -6,8 +6,8 @@ Add image here
 
     -   #### First Time Visitor Goals
         
-        1. As a First time visitor, I want to quickly get an idea about the sites content.
-        2. As a First time visitor, I want the navigation between the different parts of the site to be easy and self-explanatory. I.E. - a link named "Gallery" should lead to the gallery.
+        1. As a First time visitor, I want to quickly get an idea about the content of the site.
+        2. As a First time visitor, I want the navigation between the different parts of the site to be easy and self-explanatory. I.E. - a link named "Gallery" should lead to some kind of gallery.
         3. As a First time visitor I want to be able to quickly navigate through the content on the site to see what content might be for me.
        
 
@@ -30,12 +30,7 @@ Add image here
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
-
-    -   Mobile Wireframe - [View](https://github.com/)
-
-    -   Contact Us Page Wireframe - [View](https://github.com/)
-
+    -   [Wireframes](/assets/wireframes.pdf)
 ## Features
 
 -   Responsive on all device sizes
@@ -78,6 +73,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
         1. The main focus on the index page is the Hero image that immediately conveys the idea of a miniature wargame.
         2. Clearly visible in the upper left corner is the Hordes of the Things heading, showing what game the site covers.
+        3. To improve the visibility of the images (miniatures, after all are small) on smaller devices, we cut down the number of columns in the gallery section as the screen size becomes smaller.
      
 
     2. As a First time visitor, I want the navigation between the different parts of the site to be easy and self-explanatory. I.E. - a link named "Gallery" should lead to the gallery.
