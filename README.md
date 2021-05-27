@@ -30,7 +30,7 @@ Add image here
 
 *   ### Wireframes
 
-    -   [Wireframe collection](/wireframes.md)
+    -   [Wireframe collection](wireframes.md)
  
 
 ## Features
