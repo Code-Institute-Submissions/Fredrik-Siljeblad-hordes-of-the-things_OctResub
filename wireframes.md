@@ -1,5 +1,3 @@
-Add image here
-
 * ## Wireframes
 
     -   [Index Full Screen](/doc/wireframes/hott_index.png)
