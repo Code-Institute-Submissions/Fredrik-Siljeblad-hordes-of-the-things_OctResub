@@ -1,6 +1,6 @@
 Add image here
 
-## Wireframes
+* ## Wireframes
 
     -   [Index Full Screen](/doc/wireframes/hott_index.png)
     -   [Index Tablet](/doc/wireframes/hott_index_tablet.png)
