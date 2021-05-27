@@ -45,9 +45,35 @@ body{
 }
 
 #menu a:hover{
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #ee97ea;
 }
 
 .active{
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #ee97ea;
+}
+
+.hero-outer{
+    height:400px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-image {
+    height:400px;
+    width: 100%;
+    background: url("/assets/images/hott-banner.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.left-field {
+    width:33%;
+    padding-top: 25px;
+    float: left;
+}
+
+.right-field {
+    width: 65%;
+    padding-top: 25px;
+    float: right;
 }
