@@ -80,3 +80,14 @@ body{
     float:right;
     text-align: right;
 }
+
+#gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#gallery img{
+    width: 100%;
+}
