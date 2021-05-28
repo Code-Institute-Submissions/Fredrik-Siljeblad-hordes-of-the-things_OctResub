@@ -52,28 +52,31 @@ body{
     border-bottom: 1px solid #ee97ea;
 }
 
-.hero-outer{
-    height:400px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
 .hero-image {
     height:400px;
-    width: 100%;
+    width: 96%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
     background: url("/assets/images/hott-banner.jpg") no-repeat center center;
     background-size: cover;
+}
+
+.content {
+    width: 96%;
+    margin: 0 auto;
 }
 
 .left-field {
     width:33%;
     padding-top: 25px;
     float: left;
+    text-align: left;
 }
 
 .right-field {
     width: 65%;
     padding-top: 25px;
-    float: right;
+    float:right;
+    text-align: right;
 }
