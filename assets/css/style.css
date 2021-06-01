@@ -68,17 +68,19 @@ body{
 }
 
 .left-field {
+    height:600px;
     width:33%;
     padding-top: 25px;
     float: left;
-    text-align: left;
+    text-align: center;
 }
 
 .right-field {
+    height:600px;
     width: 65%;
     padding-top: 25px;
-    float:right;
-    text-align: right;
+    float: left;
+    text-align: center;
 }
 
 #gallery {
