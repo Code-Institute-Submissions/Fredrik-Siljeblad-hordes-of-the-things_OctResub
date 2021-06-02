@@ -6,7 +6,10 @@
     border:0;
 }
 
-body{
+header {
+    background-color: black;
+}
+body {
     font-family: "Noto Sans", sans-serif;
     color: #ee97ea;
     background-color: black;
@@ -93,6 +96,12 @@ body{
 .right-field li {
     list-style-type: none;
 
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 #gallery {
