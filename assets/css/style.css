@@ -59,8 +59,6 @@ body {
 }
 
 .main {
-    position: sticky;
-    top: 150px;
     margin-top: 75px;
 }
 
@@ -83,39 +81,51 @@ body {
     margin: 0 auto;
 }
 
+.content h3 {
+    padding-top: 15px;
+}
+
+.content p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .left-field {
- 
+    top: 0;
     height: 600px;
     width: 33%;
     padding-top: 25px;
     float: left;
     text-align: center;
-    z-index: 6; /*for testing purpose*/
+
 }
 
 .left-field li {
     list-style-type: none;
 }
 
-.left-field a {
+.content a {
     text-decoration: none;
     color: inherit;
 }
 
-.left-field a:hover{
-    border-bottom: 1px solid #ee97ea;
+.content a:hover {
+    text-decoration: underline; 
 }
+
 .right-field {
     height:600px;
     width: 65%;
     padding-top: 25px;
     float: left;
     text-align: center;
+    text-overflow: ellipsis;
+    overflow: auto;
+    
 }
 
 .right-field li {
     list-style-type: none;
-
 }
 
 #gallery {
