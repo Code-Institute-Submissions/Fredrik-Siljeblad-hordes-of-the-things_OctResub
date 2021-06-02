@@ -8,7 +8,12 @@
 
 header {
     background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
 }
+
 body {
     font-family: "Noto Sans", sans-serif;
     color: #ee97ea;
@@ -51,6 +56,10 @@ body {
 
 #menu a:hover{
     border-bottom: 1px solid #ee97ea;
+}
+
+.main {
+    margin-top: 75px;
 }
 
 .active{
@@ -96,12 +105,6 @@ body {
 .right-field li {
     list-style-type: none;
 
-}
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
 
 #gallery {
