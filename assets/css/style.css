@@ -140,7 +140,6 @@ body {
 }
 
 /* Media queries */
-/* Gallery columns need to change */
 /* At < 830 px move menu below logo & center logo*/
 
 
@@ -159,6 +158,9 @@ body {
         text-align: center;
     }
 
+    #gallery {
+        column-count: 2;
+    }
 }
 
 /* At < 700 px move right field below left field */
@@ -166,6 +168,10 @@ body {
 
     #right-field {
      
+    }
+
+    #gallery {
+        column-count: 1;
     }
 }
 
