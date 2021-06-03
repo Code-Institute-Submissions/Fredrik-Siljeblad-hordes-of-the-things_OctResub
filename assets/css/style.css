@@ -26,7 +26,7 @@ body {
     color: #fff;
     float: left;
     font-size: 200%;
-    margin-left: 50px;
+    margin: 0 0 0 50px;
     font-family: "Playfair Display", sans-serif;
 }
 
@@ -138,3 +138,34 @@ body {
 #gallery img{
     width: 100%;
 }
+
+/* Media queries */
+/* Gallery columns need to change */
+/* At < 830 px move menu below logo & center logo*/
+
+
+@media screen and (max-width: 830px){
+    #logo {
+        clear: both;
+        width: 96%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #menu {
+        clear: both;
+        width: 96%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+}
+
+/* At < 700 px move right field below left field */
+@media screen and (max-width: 700px){
+
+    #right-field {
+     
+    }
+}
+
