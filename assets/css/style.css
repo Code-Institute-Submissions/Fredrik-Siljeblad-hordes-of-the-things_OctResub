@@ -12,7 +12,7 @@ body {
     background-color: black;
 }
 
-/* header contains logo & menu */
+/* header contains logo & menu, is fixed to the top of the page, and lies on top (z-wise) */
 
 header {
     background-color: black;
@@ -26,7 +26,7 @@ header {
     color: #fff;
     float: left;
     font-size: 200%;
-    margin: 0 0 0 50px;
+    margin: 0 0 0 50px; /* to create gap left of logo */
     font-family: "Playfair Display", sans-serif;
 }
 
@@ -43,8 +43,8 @@ header {
 
 #menu li {
     float: right; /* To put the menu  in line to the right */
-    list-style-type: none;
-    margin-right: 30px;
+    list-style-type: none; /* No numbering or dots */
+    margin: 0 15px 0; /* To put distance between the links */
 }
 
 #menu a {
@@ -57,7 +57,7 @@ header {
 }
 
 .main {
-    margin-top: 75px;
+   /* margin-top: 75px; */
 }
 
 /* Underline to make clear this link is to current page */
@@ -77,9 +77,11 @@ header {
 }
 
 .content {
+
     width: 96%;
     margin: 0 auto;
 }
+
 
 .content h3 {
     padding-top: 15px;
@@ -100,10 +102,13 @@ header {
 }
 
 .left-field {
-    top: 0;
-    height: 600px;
+    background-color: black;
+    z-index: 4;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 140px; 
     width: 33%;
-    padding-top: 25px;
+    padding-top: 20px;
     float: left;
     text-align: center;
 }
@@ -113,13 +118,14 @@ header {
 }
 
 .right-field {
-    height:600px;
     width: 65%;
-    padding-top: 25px;
+    /*height: 600px;*/
+    padding: 15px 5px;
     float: left;
+    /*
     text-align: center;
     text-overflow: ellipsis;
-    overflow: auto;
+    overflow: auto;*/
 }
 
 .right-field li {
@@ -161,7 +167,14 @@ header {
         clear: both;
         margin: 0 auto;
     }
-    #gallery {
+
+    .content { /*
+        position: -webkit-sticky;  Safari 
+        position: sticky; 
+        top: 360px; */
+    }
+
+     #gallery {
         column-count: 2;
     }
 }
@@ -170,26 +183,20 @@ header {
 @media screen and (max-width: 700px){
 
     .left-field {
-        height:300px;
         width: 100%;
-        padding-top: 25px;
+       
         float: none;
         clear: both;
         text-align: center;
-        text-overflow: ellipsis;
-        overflow: auto;
        }
 
     .right-field {
-        height:600px;
         width: 100%;
-        padding-top: 25px;
+        padding: 15px 5px;
         float: none;
         clear: both;
         text-align: center;
-        text-overflow: ellipsis;
-        overflow: auto;
-    }
+        }
 
     #gallery {
         column-count: 1;
