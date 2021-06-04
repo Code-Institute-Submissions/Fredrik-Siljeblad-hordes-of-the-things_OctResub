@@ -6,6 +6,14 @@
     border:0;
 }
 
+body {
+    font-family: "Noto Sans", sans-serif;
+    color: #ee97ea;
+    background-color: black;
+}
+
+/* header contains logo & menu */
+
 header {
     background-color: black;
     position: fixed;
@@ -13,14 +21,6 @@ header {
     width: 100%;
     z-index: 5;
 }
-
-body {
-    font-family: "Noto Sans", sans-serif;
-    color: #ee97ea;
-    background-color: black;
-}
-
-/* logo */
 
 #logo {
     color: #fff;
@@ -41,10 +41,8 @@ body {
     line-height: 75px;
 }
 
-
-
 #menu li {
-    float: right;
+    float: right; /* To put the menu  in line to the right */
     list-style-type: none;
     margin-right: 30px;
 }
@@ -55,12 +53,14 @@ body {
 }
 
 #menu a:hover{
-    border-bottom: 1px solid #ee97ea;
+    border-bottom: 1px solid #ee97ea; /* Underline when hovered over */
 }
 
 .main {
     margin-top: 75px;
 }
+
+/* Underline to make clear this link is to current page */
 
 .active{
     border-bottom: 1px solid #ee97ea;
@@ -90,20 +90,6 @@ body {
     padding-bottom: 5px;
 }
 
-.left-field {
-    top: 0;
-    height: 600px;
-    width: 33%;
-    padding-top: 25px;
-    float: left;
-    text-align: center;
-
-}
-
-.left-field li {
-    list-style-type: none;
-}
-
 .content a {
     text-decoration: none;
     color: inherit;
@@ -111,6 +97,19 @@ body {
 
 .content a:hover {
     text-decoration: underline; 
+}
+
+.left-field {
+    top: 0;
+    height: 600px;
+    width: 33%;
+    padding-top: 25px;
+    float: left;
+    text-align: center;
+}
+
+.left-field li {
+    list-style-type: none;
 }
 
 .right-field {
@@ -121,7 +120,6 @@ body {
     text-align: center;
     text-overflow: ellipsis;
     overflow: auto;
-    
 }
 
 .right-field li {
@@ -131,7 +129,7 @@ body {
 #gallery {
     clear: both;
     line-height: 0;
-    column-count: 4;
+    column-count: 3;
     column-gap: 0px;
 }
 
@@ -145,6 +143,7 @@ body {
 
 @media screen and (max-width: 830px){
     #logo {
+        float: none;
         clear: both;
         width: 96%;
         margin: 0 auto;
@@ -158,6 +157,10 @@ body {
         text-align: center;
     }
 
+    #menu ul {
+        clear: both;
+        margin: 0 auto;
+    }
     #gallery {
         column-count: 2;
     }
@@ -166,8 +169,26 @@ body {
 /* At < 700 px move right field below left field */
 @media screen and (max-width: 700px){
 
-    #right-field {
-     clear: both;
+    .left-field {
+        height:300px;
+        width: 100%;
+        padding-top: 25px;
+        float: none;
+        clear: both;
+        text-align: center;
+        text-overflow: ellipsis;
+        overflow: auto;
+       }
+
+    .right-field {
+        height:600px;
+        width: 100%;
+        padding-top: 25px;
+        float: none;
+        clear: both;
+        text-align: center;
+        text-overflow: ellipsis;
+        overflow: auto;
     }
 
     #gallery {
