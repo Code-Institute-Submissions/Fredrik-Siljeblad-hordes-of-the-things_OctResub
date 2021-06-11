@@ -10,6 +10,7 @@ body {
     font-family: "Noto Sans", sans-serif;
     color: #ee97ea;
     background-color: black;
+    height: 800px; /* Added because it's one possible problem with sticky */
 }
 
 /* header contains logo & menu, is fixed to the top of the page, and lies on top (z-wise) */
@@ -56,12 +57,6 @@ header {
     border-bottom: 1px solid #ee97ea; /* Underline when hovered over */
 }
 
-.main {
-   /* margin-top: 75px; */
-}
-
-/* Underline to make clear this link is to current page */
-
 .active{
     border-bottom: 1px solid #ee97ea;
 }
@@ -76,28 +71,26 @@ header {
     background-size: cover;
 }
 
-.content {
-
-    width: 96%;
-    margin: 0 auto;
-}
-
-
-.content h3 {
+h3 {
     padding-top: 15px;
 }
 
-.content p {
+p {
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-.content a {
+a {
     text-decoration: none;
     color: inherit;
 }
 
-.content a:hover {
+#content
+{
+    height: 100%;
+}
+
+a:hover {
     text-decoration: underline; 
 }
 
@@ -106,7 +99,7 @@ header {
     z-index: 4;
     position: -webkit-sticky; /* Safari */
     position: sticky;
-    top: 140px; 
+    top: 120px; 
     width: 33%;
     padding-top: 20px;
     float: left;
@@ -117,19 +110,24 @@ header {
     list-style-type: none;
 }
 
+.left-field p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .right-field {
     width: 65%;
-    /*height: 600px;*/
     padding: 15px 5px;
     float: left;
-    /*
-    text-align: center;
-    text-overflow: ellipsis;
-    overflow: auto;*/
 }
 
 .right-field li {
     list-style-type: none;
+}
+
+.right-field p {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #gallery {
@@ -145,7 +143,6 @@ header {
 
 /* Media queries */
 /* At < 830 px move menu below logo & center logo*/
-
 
 @media screen and (max-width: 830px){
     #logo {
@@ -168,13 +165,7 @@ header {
         margin: 0 auto;
     }
 
-    .content { /*
-        position: -webkit-sticky;  Safari 
-        position: sticky; 
-        top: 360px; */
-    }
-
-     #gallery {
+    #gallery {
         column-count: 2;
     }
 }
@@ -184,7 +175,7 @@ header {
 
     .left-field {
         width: 100%;
-       
+        padding: 15px 5px;
         float: none;
         clear: both;
         text-align: center;
