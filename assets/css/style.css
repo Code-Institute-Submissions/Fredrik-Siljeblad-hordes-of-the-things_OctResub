@@ -185,15 +185,14 @@ a:hover {
 @media screen and (max-width: 700px){
 
     .left-field {
+        position: relative;
+        top: 0;
         width: 100%;
         padding: 15px 5px;
         float: none;
         clear: both;
         text-align: center;
-        position: -webkit-sticky; /* Safari */
-        position: sticky;
-        top: 120;
-       }
+        }
 
     .right-field {
         width: 100%;
