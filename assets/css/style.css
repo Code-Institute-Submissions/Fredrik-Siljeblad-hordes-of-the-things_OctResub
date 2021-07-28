@@ -67,7 +67,7 @@ header{
     margin: 0 auto;
     overflow: hidden;
     position: relative;
-    background: url("/assets/images/hott-banner.jpg") no-repeat center center;
+    background: url("../../assets/images/hott-banner.jpg") no-repeat center center;
     background-size: cover;
 }
 
