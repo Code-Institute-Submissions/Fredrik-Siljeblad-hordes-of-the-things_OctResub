@@ -1,4 +1,8 @@
-    -   [Index Full Screen](/images/screenshot.png)
+## Hordes of the Things
+Hordes of the Things is an old tabletop miniature wargame, and this is 
+a site presenting that game.
+
+![Presentation](/assets/images/screenshot.png)
 
 ## User Experience (UX)
 
@@ -24,7 +28,7 @@
     -   #### Color Scheme
         -   The two main colours used are Black and Purple, to resonate with the color scheme of the rulebook.
     -   #### Typography
-        -   As main font I have chosen Noto Sans, with Sans Serif as a fallback font family. Noto Sans is clean and easy to read. Quotations will be in Pattaya, a more playful font that gives the impression of handwriting.
+        -   As main font I have chosen Noto Sans, with Sans Serif as a fallback font family. Noto Sans is clean and easy to read.
     -   #### Imagery
         -   Miniature wargaming is in large part about the visual aspect. The Hero image is chosen to give the impression of joining a gaming table.
 
@@ -70,6 +74,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+- The accessibility was confirmed wih lighthouse in devtools.
+![Accessibility](/assets/images/accessibility.png)
+- [Results](https://github.com/)  
 
 ### Testing User Stories from User Experience (UX) Section
 
