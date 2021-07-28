@@ -23,7 +23,7 @@ header{
     z-index: 5;
 }
 
-#logo{
+.logo{
     color: #fff;
     float: left;
     font-size: 200%;
@@ -33,27 +33,27 @@ header{
 
 /* navigation links */
 
-#menu{
+.menu{
     font-size: 110%;
     letter-spacing: 4px;
 }
 
-#logo, #menu{
+.logo, .menu{
     line-height: 75px;
 }
 
-#menu li{
+.menu li{
     float: right; /* To put the menu  in line to the right */
     list-style-type: none; /* No numbering or dots */
     margin: 0 15px 0; /* To put distance between the links */
 }
 
-#menu a{
+.menu a{
     text-decoration: none;
     color: inherit;
 }
 
-#menu a:hover{
+.menu a:hover{
     border-bottom: 1px solid #ee97ea; /* Underline when hovered over */
 }
 
@@ -95,7 +95,7 @@ a{
     padding: 75px;
 }
 
-#content{
+.content{
     height: 100%;
 }
 
@@ -154,7 +154,7 @@ a:hover{
 /* At < 830 px move menu below logo & center logo*/
 
 @media screen and (max-width: 830px){
-    #logo{
+    .logo{
         float: none;
         clear: both;
         width: 96%;
@@ -162,19 +162,19 @@ a:hover{
         text-align: center;
     }
 
-    #menu{
+    .menu{
         clear: both;
         width: 96%;
         margin: 0 auto;
         text-align: center;
     }
 
-    #menu ul{
+    .menu ul{
         clear: both;
         margin: 0 auto;
     }
 
-    #gallery{
+    .gallery{
         column-count: 2;
     }
 }
@@ -200,7 +200,7 @@ a:hover{
         text-align: center;
         }
 
-    #gallery{
+    .gallery{
         column-count: 1;
     }
 }
