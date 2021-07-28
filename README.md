@@ -40,6 +40,7 @@ a site presenting that game.
 ## Features
 
 - Navigation
+
 Navigation is done through a navigation bar, from which all parts of the site is accessible and you are at the same time shown at what page you are.
 
 In the "About" page you can internally navigate though links in the summary.
