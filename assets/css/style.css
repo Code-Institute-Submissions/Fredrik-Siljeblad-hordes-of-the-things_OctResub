@@ -6,7 +6,7 @@
     border:0;
 }
 
-body {
+body{
     font-family: "Noto Sans", sans-serif;
     color: #ee97ea;
     background-color: black;
@@ -15,7 +15,7 @@ body {
 
 /* header contains logo & menu, is fixed to the top of the page, and lies on top (z-wise) */
 
-header {
+header{
     background-color: black;
     position: fixed;
     top: 0;
@@ -23,7 +23,7 @@ header {
     z-index: 5;
 }
 
-#logo {
+#logo{
     color: #fff;
     float: left;
     font-size: 200%;
@@ -38,17 +38,17 @@ header {
     letter-spacing: 4px;
 }
 
-#logo, #menu {
+#logo, #menu{
     line-height: 75px;
 }
 
-#menu li {
+#menu li{
     float: right; /* To put the menu  in line to the right */
     list-style-type: none; /* No numbering or dots */
     margin: 0 15px 0; /* To put distance between the links */
 }
 
-#menu a {
+#menu a{
     text-decoration: none;
     color: inherit;
 }
@@ -61,7 +61,7 @@ header {
     border-bottom: 1px solid #ee97ea;
 }
 
-.hero-image {
+.hero-image{
     height:400px;
     width: 96%;
     margin: 0 auto;
@@ -71,21 +71,21 @@ header {
     background-size: cover;
 }
 
-h3 {
+h3{
     padding-top: 15px;
 }
 
-p {
+p{
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-a {
+a{
     text-decoration: none;
     color: inherit;
 }
 
-.about-img {
+.about-img{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -95,19 +95,17 @@ a {
     padding: 75px;
 }
 
-#content
-{
+#content{
     height: 100%;
 }
 
-a:hover {
+a:hover{
     text-decoration: underline; 
 }
 
-.left-field {
+.left-field{
     background-color: black;
     z-index: 4;
-    /* position: -webkit-sticky; /* Safari */
     position: fixed;
     top: 480px; 
     width: 33%;
@@ -116,38 +114,38 @@ a:hover {
     text-align: center;
 }
 
-.left-field li {
+.left-field li{
     list-style-type: none;
 }
 
-.left-field p {
+.left-field p{
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-.right-field {
+.right-field{
     width: 65%;
     padding: 15px 5px;
     float: right;
 }
 
-.right-field li {
+.right-field li{
     list-style-type: none;
 }
 
-.right-field p {
+.right-field p{
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-#gallery {
+#gallery{
     clear: both;
     line-height: 0;
     column-count: 3;
     column-gap: 4px;
 }
 
-#gallery img {
+#gallery img{
     width: 100%;
     padding: 2px;
 }
@@ -156,7 +154,7 @@ a:hover {
 /* At < 830 px move menu below logo & center logo*/
 
 @media screen and (max-width: 830px){
-    #logo {
+    #logo{
         float: none;
         clear: both;
         width: 96%;
@@ -164,19 +162,19 @@ a:hover {
         text-align: center;
     }
 
-    #menu {
+    #menu{
         clear: both;
         width: 96%;
         margin: 0 auto;
         text-align: center;
     }
 
-    #menu ul {
+    #menu ul{
         clear: both;
         margin: 0 auto;
     }
 
-    #gallery {
+    #gallery{
         column-count: 2;
     }
 }
@@ -184,7 +182,7 @@ a:hover {
 /* At < 700 px move right field below left field */
 @media screen and (max-width: 700px){
 
-    .left-field {
+    .left-field{
         position: relative;
         top: 0;
         width: 100%;
@@ -194,7 +192,7 @@ a:hover {
         text-align: center;
         }
 
-    .right-field {
+    .right-field{
         width: 100%;
         padding: 15px 5px;
         float: none;
@@ -202,8 +200,7 @@ a:hover {
         text-align: center;
         }
 
-    #gallery {
+    #gallery{
         column-count: 1;
     }
 }
-

@@ -137,7 +137,7 @@ No errors were returned when passing any of the sites files through the validato
 
 ### Known Bugs
 
--   No known bugs.
+-   At deployment the hero image stopped displaying and I cannot figure out why.
 
 ## Deployment
 
@@ -156,10 +156,6 @@ The project was deployed to GitHub Pages using the following steps...
 ## Credits
 
 - The code for the gallery code was lifted from the Love Running project.
-
-### Code
-
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
 
 ### Content
 
