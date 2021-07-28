@@ -1,4 +1,4 @@
-Add image here
+    -   [Index Full Screen](/images/screenshot.png)
 
 ## User Experience (UX)
 
@@ -40,6 +40,10 @@ Add image here
 -   Interactive elements
 
 ## Technologies Used
+
+-   HTML
+-   CSS
+
 
 ### Languages Used
 
