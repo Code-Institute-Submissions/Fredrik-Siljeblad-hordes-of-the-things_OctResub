@@ -48,7 +48,7 @@ header{
     margin: 0 15px 0; /* To put distance between the links */
 }
 
-.menu a{
+.menu li a{
     text-decoration: none;
     color: inherit;
 }
