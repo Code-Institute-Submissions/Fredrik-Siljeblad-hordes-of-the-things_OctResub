@@ -2,6 +2,8 @@
 Hordes of the Things is an old tabletop miniature wargame, and this is 
 a site presenting that game.
 
+[Website](https://fredrik-siljeblad.github.io/hordes-of-the-things/index.html)
+
 ![Presentation](/assets/images/screenshot.png)
 
 ## User Experience (UX)
@@ -70,16 +72,15 @@ The community page has links to facebook groups, youtube videos, the Wargames Re
 
 ### Frameworks, Libraries & Programs Used
 
-1.
-1. [Google Fonts:](https://fonts.google.com/)
+- [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Noto Sans' and 'Pattaya' fonts into the style.css file which is used on all pages throughout the project.
-1. [Git](https://git-scm.com/)
+- [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-1. [GitHub:](https://github.com/)
+- [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Paint3D:](https://www.microsoft.com/en-us/p/paint-3d/9nblggh5fv99)
+- [Paint3D:](https://www.microsoft.com/en-us/p/paint-3d/9nblggh5fv99)
     - Paint3D was used to resize and edit photos for the website.
-1. [Balsamiq:](https://balsamiq.com/)
+- [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
 ## Testing

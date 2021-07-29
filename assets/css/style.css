@@ -125,7 +125,7 @@ a:hover{
 
 .right-field{
     width: 65%;
-    padding: 15px 5px;
+    
     float: right;
 }
 
@@ -138,14 +138,14 @@ a:hover{
     padding-bottom: 5px;
 }
 
-#gallery{
+.gallery{
     clear: both;
     line-height: 0;
     column-count: 3;
     column-gap: 4px;
 }
 
-#gallery img{
+.gallery img{
     width: 100%;
     padding: 2px;
 }
