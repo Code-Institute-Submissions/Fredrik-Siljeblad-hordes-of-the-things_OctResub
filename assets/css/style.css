@@ -108,7 +108,7 @@ a:hover{
     z-index: 4;
     position: fixed;
     top: 480px; 
-    width: 33%;
+    width: 32%;
     padding-top: 20px;
     float: left;
     text-align: center;
@@ -124,7 +124,7 @@ a:hover{
 }
 
 .right-field{
-    width: 65%;
+    width: 64%;
     padding: 75px 35px 0px 0px;
     float: right;
 }
