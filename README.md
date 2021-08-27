@@ -4,7 +4,7 @@ a site presenting that game.
 
 [Website](https://fredrik-siljeblad.github.io/hordes-of-the-things/index.html)
 
-![Presentation](/assets/images/screenshot.png)
+![Presentation](/assets/images/index.png)
 
 ## User Experience (UX)
 
@@ -100,9 +100,14 @@ No errors were returned when passing any of the sites files through the validato
 
     1. As a First time visitor, I want to quickly get an idea about the sites content.
 
+        ![Home Page](/assets/images/index.png)
+
         1. The main focus on the index page is the Hero image that immediately conveys the idea of a miniature wargame.
         2. Clearly visible in the upper left corner is the Hordes of the Things heading, showing what game the site covers.
-        3. To improve the visibility of the images (miniatures, after all are small) on smaller devices, we cut down the number of columns in the gallery section as the screen size becomes smaller.
+
+        ![Gallery Page](/assets/images/gallery.png)
+
+        3. To improve the visibility of the images (miniatures, after all are small) on smaller devices, I cut down the number of columns in the gallery section as the screen size becomes smaller.
      
 
     2. As a First time visitor, I want the navigation between the different parts of the site to be easy and self-explanatory. I.E. - a link named "Gallery" should lead to the gallery.
@@ -117,6 +122,8 @@ No errors were returned when passing any of the sites files through the validato
 
 -   #### Returning Visitor Goals
 
+    ![Community Page](/assets/images/community.png)
+     
      1. As a Returning visitor, I want to easily find links to more in-depth discussions of the ruleset.
        
         1. These are easily reachable via the 'Community' tab.
@@ -139,7 +146,7 @@ No errors were returned when passing any of the sites files through the validato
 
 ### Known Bugs
 
--   At deployment the hero image stopped displaying and I cannot figure out why.
+-   No known bugs
 
 ## Deployment
 
@@ -157,15 +164,19 @@ The project was deployed to GitHub Pages using the following steps...
 
 ## Credits
 
-- The code for the gallery code was lifted from the Love Running project.
+
+
 
 ### Content
 
 -   All content was written by the developer.
+-   The code for the gallery code was inspired by gallery in the [Love Running](https://github.com/Code-Institute-Solutions/love-running-lab-solutions/blob/master/gallery.html) project.
 
 ### Media
 
 -   All Images were created by the developer.
+-   [Am I Responsive](https://ami.responsivedesign.is) website was used to create the images of 
+    the website on different screensizes.
 
 ### Acknowledgements
 
