@@ -4,7 +4,7 @@ a site presenting that game.
 
 [Website](https://fredrik-siljeblad.github.io/hordes-of-the-things/index.html)
 
-![Presentation](/assets/images/index.png)
+![Presentation](/assets/images/index.PNG)
 
 ## User Experience (UX)
 
@@ -100,12 +100,12 @@ No errors were returned when passing any of the sites files through the validato
 
     1. As a First time visitor, I want to quickly get an idea about the sites content.
 
-        ![Home Page](/assets/images/index.png)
+        ![Home Page](/assets/images/index.PNG)
 
         1. The main focus on the index page is the Hero image that immediately conveys the idea of a miniature wargame.
         2. Clearly visible in the upper left corner is the Hordes of the Things heading, showing what game the site covers.
 
-        ![Gallery Page](/assets/images/gallery.png)
+        ![Gallery Page](/assets/images/gallery.PNG)
 
         3. To improve the visibility of the images (miniatures, after all are small) on smaller devices, I cut down the number of columns in the gallery section as the screen size becomes smaller.
      
@@ -122,7 +122,7 @@ No errors were returned when passing any of the sites files through the validato
 
 -   #### Returning Visitor Goals
 
-    ![Community Page](/assets/images/community.png)
+    ![Community Page](/assets/images/community.PNG)
      
      1. As a Returning visitor, I want to easily find links to more in-depth discussions of the ruleset.
        
