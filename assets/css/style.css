@@ -210,10 +210,18 @@ a:hover{
 @media screen and (max-width: 500px){
 
     .menu li{
-        float: right; /* To put the menu  in line to the right */
-        list-style-type: none; /* No numbering or dots */
         margin: 0 5px 0; /* To put distance between the links */
         font-size: 80%;
         letter-spacing: 2px;
+    }
+
+    .about-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        padding: 25px;
     }
 }
