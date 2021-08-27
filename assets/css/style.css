@@ -139,6 +139,8 @@ a:hover{
 }
 
 .gallery{
+    position: absolute;
+    top: 80px;
     clear: both;
     line-height: 0;
     column-count: 3;
@@ -176,6 +178,7 @@ a:hover{
 
     .gallery{
         column-count: 2;
+        top: 150px;
     }
 }
 
