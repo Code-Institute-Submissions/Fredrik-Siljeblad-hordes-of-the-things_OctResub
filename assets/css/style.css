@@ -206,6 +206,7 @@ a:hover{
 }
 
 /* At < 500px reduce size of the menu to fit on mobile versions */
+/* Also reduce size of the about-img to avoid zooming issues */
 
 @media screen and (max-width: 500px){
 
