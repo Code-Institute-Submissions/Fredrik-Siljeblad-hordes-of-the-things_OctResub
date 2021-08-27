@@ -204,3 +204,16 @@ a:hover{
         column-count: 1;
     }
 }
+
+/* At < 500px reduce size of the menu to fit on mobile versions */
+
+@media screen and (max-width: 500px){
+
+    .menu li{
+        float: right; /* To put the menu  in line to the right */
+        list-style-type: none; /* No numbering or dots */
+        margin: 0 5px 0; /* To put distance between the links */
+        font-size: 80%;
+        letter-spacing: 2px;
+    }
+}
