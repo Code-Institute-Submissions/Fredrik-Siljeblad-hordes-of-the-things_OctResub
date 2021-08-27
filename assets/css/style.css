@@ -108,7 +108,7 @@ a:hover{
     z-index: 4;
     position: fixed;
     top: 480px; 
-    width: 33%;
+    width: 32%;
     padding-top: 20px;
     float: left;
     text-align: center;
@@ -124,7 +124,7 @@ a:hover{
 }
 
 .right-field{
-    width: 65%;
+    width: 64%;
     padding: 75px 35px 0px 0px;
     float: right;
 }
@@ -139,6 +139,8 @@ a:hover{
 }
 
 .gallery{
+    position: absolute;
+    top: 80px;
     clear: both;
     line-height: 0;
     column-count: 3;
@@ -176,6 +178,7 @@ a:hover{
 
     .gallery{
         column-count: 2;
+        top: 150px;
     }
 }
 
@@ -202,5 +205,27 @@ a:hover{
 
     .gallery{
         column-count: 1;
+    }
+}
+
+/* At < 500px reduce size of the menu to fit on mobile versions */
+/* Also reduce size of the about-img to avoid zooming issues */
+
+@media screen and (max-width: 500px){
+
+    .menu li{
+        margin: 0 5px 0; /* To put distance between the links */
+        font-size: 80%;
+        letter-spacing: 2px;
+    }
+
+    .about-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        padding: 25px;
     }
 }
